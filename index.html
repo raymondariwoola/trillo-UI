@@ -29,28 +29,72 @@
             <nav class="user-nav">
                 <div class="user-nav__icon-box">
                     <svg class="user-nav__icon">
-                        <use href=img/sprite.svg#icon-bookmark></use>
+                        <use href="img/sprite.svg#icon-bookmark"></use>
                     </svg>
                     <span class="user-nav__notification">7</span>
                 </div>
 
                 <div class="user-nav__icon-box">
                     <svg class="user-nav__icon">
-                        <use href=img/sprite.svg#icon-chat></use>
+                        <use href="img/sprite.svg#icon-chat"></use>
                     </svg>
                     <span class="user-nav__notification">13</span>
                 </div>
 
                 <div class="user-nav__user">
-                    <img src="https://avatars.githubusercontent.com/u/58448235?s=40&v=4" alt="User Photo" class="user-nav__user-photo">
+                    <img src="https://avatars.githubusercontent.com/u/58448235?s=40&v=4" alt="User Photo"
+                        class="user-nav__user-photo">
                     <span class="user-nav__user-name">Raymond</span>
                 </div>
             </nav>
         </header>
         <div class="content">
             <nav class="sidebar">
-                Navigation
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use href="img/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span>Hotel</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use href="img/sprite.svg#icon-aircraft"></use>
+                            </svg>
+                            <span>Flight</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use href="img/sprite.svg#icon-key"></use>
+                            </svg>
+                            <span>Car Rental</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use href="img/sprite.svg#icon-map"></use>
+                            </svg>
+                            <span>Tours</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="legal">
+                    &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    by trillo. All rights reserved.
+                </div>
             </nav>
+
+
             <main class="hotel-view">
                 Hotel View
             </main>
